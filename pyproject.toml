@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "data-structures"
+version = "0.1.0"
+description = ""
+authors = ["Bukhari bin mahmoud Kibuka <93518580+bumahkib7@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "data_structures"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
